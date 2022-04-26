@@ -1,0 +1,150 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    padding: 0 20% 0 20%;
+    background-color: #fafafa;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.illustration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.illustration img{
+    height: auto;
+}
+
+.login-box{
+    width: 40%;    
+    min-width: 350px;
+    padding: 20px;
+}
+
+.login{
+    border: 1px solid #CCCCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10%;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+}
+
+.caixa-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.caixa-login img{
+    height: auto;
+    width: auto;
+}
+
+.caixa-login input{
+    height: 20px;
+    width: 250px;
+    border: 1px solid #cccccc;
+    padding: 3%;
+    margin: 5px 0 5px 0;
+}
+
+.caixa-login button{
+    width: 280px;
+    background-color: rgb(165, 214, 236);
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0 5px 0;
+    font-size: 1rem;
+}
+
+.or-divisor{
+    margin: 5px 0 10px 0;
+    color: #6e6e6e;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divisor-line{
+    height: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.divisor-line hr{
+    width: 100px;
+}
+
+.facebook-login{
+    text-align: center;
+    width: 70%;
+    font-weight: bold;
+    color: #6e6e6e;
+    cursor: pointer;
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.facebook-login img{
+    width: 20px;
+    display: inline-flex;
+}
+
+.font-small{    
+    font-size: 0.8rem;
+    color: #292929;
+}
+
+.forgot-pass{
+    margin-top: 20px;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.get-app{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.store{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.store img{
+    width: 150px;
+}
+
+@media (max-width: 1200px) {
+    .illustration{
+        display: none;
+    }
+}
