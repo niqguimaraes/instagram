@@ -1,10 +1,7 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+<h1 align="center">Cópia Instagram Spread Fullstack Bootcampo DIO</h1>
 
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
+## :memo: Descrição
+Projeto de cópia da página inicial do Instagram para entrega no bootcamp da Digital Inovation One.
 
-### Os requisitos são:
-
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-
-## 🚀 Let's code! 🚀
+## Tecnologias utilizadas
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
